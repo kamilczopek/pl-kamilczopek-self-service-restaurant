@@ -8,21 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8E079F281D21224900A9ACCE /* index.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F271D21224900A9ACCE /* index.mustache */; };
-		8E079F341D21235A00A9ACCE /* storestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F331D21235A00A9ACCE /* storestyle.css */; };
 		8E079F351D21245400A9ACCE /* index.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E079F271D21224900A9ACCE /* index.mustache */; };
-		8E079F361D2130BA00A9ACCE /* storestyle.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E079F331D21235A00A9ACCE /* storestyle.css */; };
-		8E079F381D21405F00A9ACCE /* category.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F371D21405F00A9ACCE /* category.mustache */; };
 		8E079F3A1D21415300A9ACCE /* CategoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E079F391D21415300A9ACCE /* CategoryHandler.swift */; };
-		8E079F3B1D21419A00A9ACCE /* category.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E079F371D21405F00A9ACCE /* category.mustache */; };
-		8E079F3D1D21450F00A9ACCE /* cart.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F3C1D21450F00A9ACCE /* cart.mustache */; };
-		8E079F3E1D2145AA00A9ACCE /* cart.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E079F3C1D21450F00A9ACCE /* cart.mustache */; };
-		8E079F401D2148D700A9ACCE /* checkout.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F3F1D2148D700A9ACCE /* checkout.mustache */; };
-		8E079F411D21497600A9ACCE /* checkout.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E079F3F1D2148D700A9ACCE /* checkout.mustache */; };
 		8E079F431D2149D700A9ACCE /* CartHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E079F421D2149D700A9ACCE /* CartHandler.swift */; };
 		8E079F451D214AB600A9ACCE /* CheckoutHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E079F441D214AB600A9ACCE /* CheckoutHandler.swift */; };
-		8E079F471D214B1700A9ACCE /* confirmation.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F461D214B1700A9ACCE /* confirmation.mustache */; };
 		8E079F491D214B7B00A9ACCE /* ConfirmationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E079F481D214B7B00A9ACCE /* ConfirmationHandler.swift */; };
-		8E079F4A1D214BDD00A9ACCE /* confirmation.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E079F461D214B1700A9ACCE /* confirmation.mustache */; };
 		8E079F671D2152D400A9ACCE /* cart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F4C1D2152D400A9ACCE /* cart.gif */; };
 		8E079F681D2152D400A9ACCE /* bakery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F4E1D2152D400A9ACCE /* bakery.jpg */; };
 		8E079F691D2152D400A9ACCE /* dairy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E079F4F1D2152D400A9ACCE /* dairy.jpg */; };
@@ -84,14 +74,16 @@
 		8E0ACAA61D1AB30B009FE611 /* FoodListHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0ACAA51D1AB30B009FE611 /* FoodListHandler.swift */; };
 		8E0ACAA71D1AB420009FE611 /* FoodList.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E0ACAA31D1AB1C4009FE611 /* FoodList.mustache */; };
 		8E13CFEA1D23B9EB005F86EA /* ProductsInCategoryJSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E13CFE91D23B9EB005F86EA /* ProductsInCategoryJSONHandler.swift */; };
-		8E13CFF41D23BFFE005F86EA /* ProductsInCategoryJSON.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E13CFF31D23BFFE005F86EA /* ProductsInCategoryJSON.mustache */; };
-		8E13CFF51D23C07C005F86EA /* ProductsInCategoryJSON.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8E13CFF31D23BFFE005F86EA /* ProductsInCategoryJSON.mustache */; };
-		8EB6662A1D22C78F00174F58 /* CategoriesListJSON.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8EB666291D22C78F00174F58 /* CategoriesListJSON.mustache */; };
+		8E18F6E51D26AFC3001902F0 /* ProductsInCategoryJSON.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F6DD1D26AFC3001902F0 /* ProductsInCategoryJSON.mustache */; };
+		8E18F6E61D26AFC3001902F0 /* CategoriesListJSON.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F6DE1D26AFC3001902F0 /* CategoriesListJSON.mustache */; };
+		8E18F6E71D26AFC3001902F0 /* storestyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F6DF1D26AFC3001902F0 /* storestyle.css */; };
+		8E18F6E81D26AFC3001902F0 /* category.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F6E01D26AFC3001902F0 /* category.mustache */; };
+		8E18F6E91D26AFC3001902F0 /* confirmation.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F6E11D26AFC3001902F0 /* confirmation.mustache */; };
+		8E18F6EA1D26AFC3001902F0 /* cart.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F6E21D26AFC3001902F0 /* cart.mustache */; };
+		8E18F6EB1D26AFC3001902F0 /* checkout.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F6E31D26AFC3001902F0 /* checkout.mustache */; };
+		8E18F6EC1D26AFC3001902F0 /* AllProductsList.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8E18F6E41D26AFC3001902F0 /* AllProductsList.mustache */; };
 		8EB666341D22C81500174F58 /* CategoriesListJSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB666331D22C81500174F58 /* CategoriesListJSONHandler.swift */; };
-		8EB666351D22C8C000174F58 /* CategoriesListJSON.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8EB666291D22C78F00174F58 /* CategoriesListJSON.mustache */; };
 		8EF69B121D1D66A400383A79 /* ProductListHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF69B111D1D66A400383A79 /* ProductListHandler.swift */; };
-		8EF69B1C1D1D68AB00383A79 /* AllProductsList.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 8EF69B1B1D1D68AB00383A79 /* AllProductsList.mustache */; };
-		8EF69B1D1D1D68BA00383A79 /* AllProductsList.mustache in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8EF69B1B1D1D68AB00383A79 /* AllProductsList.mustache */; };
 		8EF69B1F1D1D7BE000383A79 /* IndexHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF69B1E1D1D7BE000383A79 /* IndexHandler.swift */; };
 /* End PBXBuildFile section */
 
@@ -161,8 +153,6 @@
 			dstPath = webroot;
 			dstSubfolderSpec = 16;
 			files = (
-				8E13CFF51D23C07C005F86EA /* ProductsInCategoryJSON.mustache in CopyFiles */,
-				8EB666351D22C8C000174F58 /* CategoriesListJSON.mustache in CopyFiles */,
 				8E079F801D21531200A9ACCE /* cart.gif in CopyFiles */,
 				8E079F811D21531200A9ACCE /* bakery.jpg in CopyFiles */,
 				8E079F821D21531200A9ACCE /* dairy.jpg in CopyFiles */,
@@ -188,13 +178,7 @@
 				8E079F961D21531200A9ACCE /* sesame seed bagel.png in CopyFiles */,
 				8E079F971D21531200A9ACCE /* sunflower seed loaf.png in CopyFiles */,
 				8E079F981D21531200A9ACCE /* stalk.png in CopyFiles */,
-				8E079F4A1D214BDD00A9ACCE /* confirmation.mustache in CopyFiles */,
-				8E079F411D21497600A9ACCE /* checkout.mustache in CopyFiles */,
-				8E079F3E1D2145AA00A9ACCE /* cart.mustache in CopyFiles */,
-				8E079F3B1D21419A00A9ACCE /* category.mustache in CopyFiles */,
-				8E079F361D2130BA00A9ACCE /* storestyle.css in CopyFiles */,
 				8E079F351D21245400A9ACCE /* index.mustache in CopyFiles */,
-				8EF69B1D1D1D68BA00383A79 /* AllProductsList.mustache in CopyFiles */,
 				8E0ACAA71D1AB420009FE611 /* FoodList.mustache in CopyFiles */,
 				8E0ACA9E1D1AAAD9009FE611 /* CatName.mustache in CopyFiles */,
 			);
@@ -204,14 +188,9 @@
 
 /* Begin PBXFileReference section */
 		8E079F271D21224900A9ACCE /* index.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = index.mustache; path = Mustache/index.mustache; sourceTree = "<group>"; };
-		8E079F331D21235A00A9ACCE /* storestyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = storestyle.css; sourceTree = "<group>"; };
-		8E079F371D21405F00A9ACCE /* category.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = category.mustache; sourceTree = "<group>"; };
 		8E079F391D21415300A9ACCE /* CategoryHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHandler.swift; sourceTree = "<group>"; };
-		8E079F3C1D21450F00A9ACCE /* cart.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cart.mustache; sourceTree = "<group>"; };
-		8E079F3F1D2148D700A9ACCE /* checkout.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = checkout.mustache; sourceTree = "<group>"; };
 		8E079F421D2149D700A9ACCE /* CartHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartHandler.swift; sourceTree = "<group>"; };
 		8E079F441D214AB600A9ACCE /* CheckoutHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutHandler.swift; sourceTree = "<group>"; };
-		8E079F461D214B1700A9ACCE /* confirmation.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = confirmation.mustache; sourceTree = "<group>"; };
 		8E079F481D214B7B00A9ACCE /* ConfirmationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationHandler.swift; sourceTree = "<group>"; };
 		8E079F4C1D2152D400A9ACCE /* cart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cart.gif; sourceTree = "<group>"; };
 		8E079F4E1D2152D400A9ACCE /* bakery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bakery.jpg; sourceTree = "<group>"; };
@@ -250,11 +229,16 @@
 		8E0ACAA31D1AB1C4009FE611 /* FoodList.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FoodList.mustache; path = Mustache/FoodList.mustache; sourceTree = "<group>"; };
 		8E0ACAA51D1AB30B009FE611 /* FoodListHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListHandler.swift; sourceTree = "<group>"; };
 		8E13CFE91D23B9EB005F86EA /* ProductsInCategoryJSONHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsInCategoryJSONHandler.swift; sourceTree = "<group>"; };
-		8E13CFF31D23BFFE005F86EA /* ProductsInCategoryJSON.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductsInCategoryJSON.mustache; sourceTree = "<group>"; };
-		8EB666291D22C78F00174F58 /* CategoriesListJSON.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CategoriesListJSON.mustache; sourceTree = "<group>"; };
+		8E18F6DD1D26AFC3001902F0 /* ProductsInCategoryJSON.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ProductsInCategoryJSON.mustache; path = Mustache/ProductsInCategoryJSON.mustache; sourceTree = "<group>"; };
+		8E18F6DE1D26AFC3001902F0 /* CategoriesListJSON.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CategoriesListJSON.mustache; path = Mustache/CategoriesListJSON.mustache; sourceTree = "<group>"; };
+		8E18F6DF1D26AFC3001902F0 /* storestyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = storestyle.css; path = Mustache/storestyle.css; sourceTree = "<group>"; };
+		8E18F6E01D26AFC3001902F0 /* category.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = category.mustache; path = Mustache/category.mustache; sourceTree = "<group>"; };
+		8E18F6E11D26AFC3001902F0 /* confirmation.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = confirmation.mustache; path = Mustache/confirmation.mustache; sourceTree = "<group>"; };
+		8E18F6E21D26AFC3001902F0 /* cart.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cart.mustache; path = Mustache/cart.mustache; sourceTree = "<group>"; };
+		8E18F6E31D26AFC3001902F0 /* checkout.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = checkout.mustache; path = Mustache/checkout.mustache; sourceTree = "<group>"; };
+		8E18F6E41D26AFC3001902F0 /* AllProductsList.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AllProductsList.mustache; path = Mustache/AllProductsList.mustache; sourceTree = "<group>"; };
 		8EB666331D22C81500174F58 /* CategoriesListJSONHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesListJSONHandler.swift; sourceTree = "<group>"; };
 		8EF69B111D1D66A400383A79 /* ProductListHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListHandler.swift; sourceTree = "<group>"; };
-		8EF69B1B1D1D68AB00383A79 /* AllProductsList.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AllProductsList.mustache; sourceTree = "<group>"; };
 		8EF69B1E1D1D7BE000383A79 /* IndexHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -274,18 +258,18 @@
 		8E079F311D21231900A9ACCE /* Mustache */ = {
 			isa = PBXGroup;
 			children = (
+				8E18F6DD1D26AFC3001902F0 /* ProductsInCategoryJSON.mustache */,
+				8E18F6DE1D26AFC3001902F0 /* CategoriesListJSON.mustache */,
+				8E18F6DF1D26AFC3001902F0 /* storestyle.css */,
+				8E18F6E01D26AFC3001902F0 /* category.mustache */,
+				8E18F6E11D26AFC3001902F0 /* confirmation.mustache */,
+				8E18F6E21D26AFC3001902F0 /* cart.mustache */,
+				8E18F6E31D26AFC3001902F0 /* checkout.mustache */,
+				8E18F6E41D26AFC3001902F0 /* AllProductsList.mustache */,
 				8E079F4B1D2152D400A9ACCE /* img */,
-				8E079F331D21235A00A9ACCE /* storestyle.css */,
 				8E0ACA9B1D1AAA1B009FE611 /* CatName.mustache */,
 				8E0ACAA31D1AB1C4009FE611 /* FoodList.mustache */,
-				8EF69B1B1D1D68AB00383A79 /* AllProductsList.mustache */,
 				8E079F271D21224900A9ACCE /* index.mustache */,
-				8E079F371D21405F00A9ACCE /* category.mustache */,
-				8E079F3C1D21450F00A9ACCE /* cart.mustache */,
-				8E079F3F1D2148D700A9ACCE /* checkout.mustache */,
-				8E079F461D214B1700A9ACCE /* confirmation.mustache */,
-				8EB666291D22C78F00174F58 /* CategoriesListJSON.mustache */,
-				8E13CFF31D23BFFE005F86EA /* ProductsInCategoryJSON.mustache */,
 			);
 			name = Mustache;
 			sourceTree = "<group>";
@@ -559,7 +543,6 @@
 			files = (
 				8E079F7E1D2152D400A9ACCE /* sunflower seed loaf.png in Resources */,
 				8E079F741D2152D400A9ACCE /* corn on the cob.png in Resources */,
-				8EF69B1C1D1D68AB00383A79 /* AllProductsList.mustache in Resources */,
 				8E079F7D1D2152D400A9ACCE /* sesame seed bagel.png in Resources */,
 				8E079F721D2152D400A9ACCE /* chicken leg.png in Resources */,
 				8E079F7C1D2152D400A9ACCE /* seedless watermelon.png in Resources */,
@@ -567,32 +550,33 @@
 				8E079F691D2152D400A9ACCE /* dairy.jpg in Resources */,
 				8E079F6E1D2152D400A9ACCE /* logoText.png in Resources */,
 				8E079F6A1D2152D400A9ACCE /* fruit & veg.jpg in Resources */,
+				8E18F6EB1D26AFC3001902F0 /* checkout.mustache in Resources */,
 				8E079F731D2152D400A9ACCE /* chocolate cookies.png in Resources */,
 				8E0ACA9C1D1AAA1B009FE611 /* CatName.mustache in Resources */,
+				8E18F6E91D26AFC3001902F0 /* confirmation.mustache in Resources */,
 				8E079F7A1D2152D400A9ACCE /* red currants.png in Resources */,
+				8E18F6EA1D26AFC3001902F0 /* cart.mustache in Resources */,
 				8E079F671D2152D400A9ACCE /* cart.gif in Resources */,
-				8E079F341D21235A00A9ACCE /* storestyle.css in Resources */,
 				8E079F7F1D2152D400A9ACCE /* stalk.png in Resources */,
-				8E079F3D1D21450F00A9ACCE /* cart.mustache in Resources */,
 				8E079F751D2152D400A9ACCE /* free range eggs.png in Resources */,
 				8E079F701D2152D400A9ACCE /* butter.png in Resources */,
-				8E079F381D21405F00A9ACCE /* category.mustache in Resources */,
 				8E079F711D2152D400A9ACCE /* cheese.png in Resources */,
 				8E079F6B1D2152D400A9ACCE /* meats.jpg in Resources */,
+				8E18F6EC1D26AFC3001902F0 /* AllProductsList.mustache in Resources */,
+				8E18F6E71D26AFC3001902F0 /* storestyle.css in Resources */,
 				8E079F761D2152D400A9ACCE /* milk.png in Resources */,
 				8E079F281D21224900A9ACCE /* index.mustache in Resources */,
 				8E0ACAA41D1AB1C4009FE611 /* FoodList.mustache in Resources */,
-				8EB6662A1D22C78F00174F58 /* CategoriesListJSON.mustache in Resources */,
 				8E079F781D2152D400A9ACCE /* parma ham.png in Resources */,
+				8E18F6E81D26AFC3001902F0 /* category.mustache in Resources */,
 				8E079F771D2152D400A9ACCE /* organic meat patties.png in Resources */,
 				8E079F6F1D2152D400A9ACCE /* broccoli.png in Resources */,
-				8E079F401D2148D700A9ACCE /* checkout.mustache in Resources */,
-				8E13CFF41D23BFFE005F86EA /* ProductsInCategoryJSON.mustache in Resources */,
 				8E079F6D1D2152D400A9ACCE /* logo.png in Resources */,
-				8E079F471D214B1700A9ACCE /* confirmation.mustache in Resources */,
+				8E18F6E61D26AFC3001902F0 /* CategoriesListJSON.mustache in Resources */,
 				8E079F791D2152D400A9ACCE /* pumpkin seed bun.png in Resources */,
 				8E079F681D2152D400A9ACCE /* bakery.jpg in Resources */,
 				8E079F6C1D2152D400A9ACCE /* favicon.ico in Resources */,
+				8E18F6E51D26AFC3001902F0 /* ProductsInCategoryJSON.mustache in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

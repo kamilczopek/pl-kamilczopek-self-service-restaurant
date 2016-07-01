@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SelfServiceRestaurant/ProductsInCategoryJSONHandler.swift"
-            timestampString = "488884253.294283"
+            timestampString = "489073367.43061"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "valuesForResponse(_:collector:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SelfServiceRestaurant/ProductsInCategoryJSONHandler.swift"
-            timestampString = "488884266.121657"
+            timestampString = "489073367.43061"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "valuesForResponse(_:collector:)"
             landmarkType = "5">
          </BreakpointContent>
