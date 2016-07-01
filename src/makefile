@@ -6,14 +6,14 @@ OS = $(shell uname)
 SWIFT_FILES = $(TARGET)/PerfectHandlers.swift \
 		$(TARGET)/CatNameHandler.swift \
 		$(TARGET)/FoodListHandler.swift \
-		$(TARGET)/CategoriesListJSONHandler \
-		$(TARGET)/ProductsInCategoryJSONHandler \
-		$(TARGET)/IndexHandler \
-		$(TARGET)/CategoryHandler \
-		$(TARGET)/CartHandler \
-		$(TARGET)/CheckoutHandler \
-		$(TARGET)/ConfirmationHandler \
-		$(TARGET)/ProductListHandler
+		$(TARGET)/CategoriesListJSONHandler.swift \
+		$(TARGET)/ProductsInCategoryJSONHandler.swift \
+		$(TARGET)/IndexHandler.swift \
+		$(TARGET)/CategoryHandler.swift \
+		$(TARGET)/CartHandler.swift \
+		$(TARGET)/CheckoutHandler.swift \
+		$(TARGET)/ConfirmationHandler.swift \
+		$(TARGET)/ProductListHandler.swift
 
 MUSTACHE_ROOT = $(TARGET)/Mustache
 PERFECT_ROOT = /app/.delta/usr/src/perfect/PerfectLib
