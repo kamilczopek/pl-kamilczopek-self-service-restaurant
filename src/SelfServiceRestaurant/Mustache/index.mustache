@@ -1,0 +1,51 @@
+{{% handler:IndexHandler}}
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="storestyle.css">
+<title>The Store</title>
+</head>
+<body>
+<div id="main">
+<div id="header">
+<div id="widgetBar">
+
+<div class="headerWidget">
+<a href="cart">Shopping cart<img src="cart.gif" id="cart" alt="shopping cart widget"> </a>
+</div>
+
+</div>
+
+<a href="#">
+<img src="logo.png" id="logo" alt="Store logo">
+</a>
+
+<img src="logoText.png" id="logoText" alt="the store logo text">
+</div>
+
+<div id="indexLeftColumn">
+<div id="welcomeText">
+<p>{{welcomeText}}</p>
+</div>
+</div>
+
+<div id="indexRightColumn">
+{{#params}}
+
+<div class="categoryBox">
+<a href="/category?selectedCategory={{categoryName}}">
+<span class="categoryLabelText">{{categoryName}}</span>
+</a>
+<img src="{{imageName}}" id="dairy" alt="dairy jpg">
+</div>
+
+{{/params}}
+</div>
+
+<div id="footer">
+<hr>
+<p id="footerText">{{footerText}}</p>
+</div>
+</div>
+</body>
+</html>

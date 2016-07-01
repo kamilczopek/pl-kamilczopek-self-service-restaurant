@@ -1,0 +1,27 @@
+{{%handler:AllProductsList}}
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>{{title}}</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        <h1> {{header}} </h1>
+
+        <table border="1">
+            {{#params}}
+                <tr>
+                    <td>{{productName}}</td> <td>{{productCategory}}</td>
+                </tr>
+            {{/params}}
+
+        </table>
+
+    </body>
+
+
+
+</html>
